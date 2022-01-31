@@ -13,9 +13,11 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 
-with st.echo(code_location='below'):
-    print("test")        
-#     if st.button("Clear daily checklist"):
+with st.echo(code_location='below'):     
+    result = st.button("Clear daily checklist")
+    
+    if result:
+        st.write("worked")
 
 #     def clear_daily():    
 #         url = "https://api.notion.com/v1/databases/496f4943fe29407098c94d5b7b4e8ce4"
