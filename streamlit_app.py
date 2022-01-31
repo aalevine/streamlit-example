@@ -17,7 +17,7 @@ with st.echo(code_location='below'):
             "Accept": "application/json",
             "Notion-Version": "2021-08-16",
             "Content-Type": "application/json",
-            "Authorization": "Bearer secret_bbkXQFbGmg9G8hqXxzPPc4QMwAv1mmFQgoRDfSC7jfx"
+            "Authorization": "Bearer secret_mduk29ERIsnmXXmLrkwdy11c0G2DVdm9K2LTqohkBDH"
         }
 
         response = requests.request("POST", url, json=payload, headers=headers)
