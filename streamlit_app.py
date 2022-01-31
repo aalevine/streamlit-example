@@ -30,11 +30,11 @@ with st.echo(code_location='below'):
         tasks = [
             (
                 "delete",
-                payload = {"properties":{"Done": None}}
+                {"properties":{"Done": None}}
             ),
             (
                 "create",
-                payload = {"properties":{"Done":{"checkbox":{}}}}                 
+                {"properties":{"Done":{"checkbox":{}}}}                 
             )
         ]
         
