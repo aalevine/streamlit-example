@@ -22,7 +22,7 @@ with st.echo(code_location='below'):
         }
 
         response = requests.request("PATCH", url, json=payload, headers=headers)        
-        st.write("Deleted 'Done' column."
+        st.write("Deleted 'Done' column.")
         st.write(response.text)
         
         
@@ -41,7 +41,7 @@ with st.echo(code_location='below'):
 
         response = requests.request("PATCH", url, json=payload, headers=headers)        
 
-        st.write("Recreated 'Done' column."                 
+        st.write("Recreated 'Done' column.")              
         st.write(response.text)      
         
         
