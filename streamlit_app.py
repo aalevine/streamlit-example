@@ -14,11 +14,10 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 
 with st.echo(code_location='below'):
-    
-    def clear_daily():
-        print("test")
         
-    st.button("Clear daily checklist", on_click=clear_daily())        
+    if st.button("Clear daily checklist"):
+        print("test")
+#     def clear_daily():    
 #         url = "https://api.notion.com/v1/databases/496f4943fe29407098c94d5b7b4e8ce4"
 
 #         payload = {"properties": {"Done": {"title": [{"checkbox": {"content": 0}}]}}}
