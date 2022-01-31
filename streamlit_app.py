@@ -14,9 +14,9 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 
 with st.echo(code_location='below'):
-        
-    if st.button("Clear daily checklist"):
-        print("test")
+    print("test")        
+#     if st.button("Clear daily checklist"):
+
 #     def clear_daily():    
 #         url = "https://api.notion.com/v1/databases/496f4943fe29407098c94d5b7b4e8ce4"
 
