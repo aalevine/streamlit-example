@@ -2,14 +2,7 @@ import streamlit as st
 import requests
 
 """
-# Welcome to Streamlit!
-
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
-
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
-
-In the meantime, below is an example of what you can do with just a few lines of code:
+# Clear Daily Checklist
 """
 
 
@@ -19,7 +12,7 @@ with st.echo(code_location='below'):
         
         url = "https://api.notion.com/v1/databases/496f4943fe29407098c94d5b7b4e8ce4"
         
-        payload = {"properties": {"Done": {"title": [{"checkbox": {"content": 0}}]}}}
+        payload = {"properties": {"Done": {"checkbox": {"content": 0}}}}
 
         headers = {
             "Accept": "application/json",
