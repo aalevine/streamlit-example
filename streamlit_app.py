@@ -12,7 +12,7 @@ with st.echo(code_location='below'):
         
         url = "https://api.notion.com/v1/databases/496f4943fe29407098c94d5b7b4e8ce4"
         
-        payload = {"properties": {"Done": null}}
+        payload = {"properties": {"Done": {"checkbox": {"content": 0}}}}
 
         headers = {
             "Accept": "application/json",
