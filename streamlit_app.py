@@ -10,7 +10,7 @@ with st.echo(code_location='below'):
 
     def clear_daily():
         
-        url = "https://api.notion.com/v1/databases/9cd756f45c024073a905ad528e75c75c/query"
+        url = "https://api.notion.com/v1/databases/496f4943fe29407098c94d5b7b4e8ce4/query"
 
         payload = {"page_size": 100}
         headers = {
