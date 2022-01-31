@@ -44,7 +44,7 @@ with st.echo(code_location='below'):
         st.write(response.text)      
         
         
-    def clear_daily()
+    def clear_daily():
         delete_done_column()
         create_done_column()
         
