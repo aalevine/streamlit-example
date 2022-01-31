@@ -31,4 +31,5 @@ with st.echo(code_location='below'):
 
         print(response.text)        
         
-    st.button("Clear daily checklist", on_click=clear_daily)
+    if st.button("Clear daily checklist"):
+        clear_daily()
